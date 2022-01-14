@@ -1,0 +1,148 @@
+
+
+header{
+    background-image: url(bac2.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+.header_center{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+.header_center ul{
+   text-align: center;
+ 
+}
+.header_center li{
+    list-style-type: none;
+    margin: 10px;
+    display: inline;
+}
+.header_center  a{ 
+    text-decoration: none;
+    color: rgb(30, 5, 100);
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Saira Condensed', sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(174, 0, 255);
+}
+.name{
+    height: 30px;
+    float: right;
+    margin:0px ;
+}
+/*left*/
+
+h1{
+    font-size: 10vh;
+    line-height: 70px;
+    text-align: center;
+    color: rgb(48, 239, 130);
+    font-family: 'Saira Condensed', sans-serif;
+    
+}
+h4{
+    text-align: center;
+    color: rgb(85, 141, 0);
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+/*side*/
+
+.side{
+    display: block;
+    margin-bottom: 50px;
+    
+    height: 500px;
+    box-shadow: -5px -5px 5px rgb(0, 0, 0);
+}
+
+/* middle page*/
+.right{
+    background-image: url(image5.jpg);
+    background-size: cover;
+   display: flex;
+   justify-content: space-around;
+}
+.responsive{
+    width: 25%;
+    float: left;
+    margin-top: 30px;
+ 
+}
+.fit{
+    border: 1px black solid; 
+   
+}
+.product{
+    width: 100%;
+   
+}
+.overlay{
+    background-color: rgb(250, 249, 249);
+    opacity: 0.9;
+
+}
+button{
+    padding: 5px 10px;
+    border: blueviolet dotted 1px;
+    display: block;
+    margin: 20px auto;
+    color: chocolate;
+    
+    
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 2em;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+li{
+    list-style: none;
+    color: cadetblue;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.centering{
+    
+    margin: 20px;
+    width: 90%;
+}
+ .column{
+     margin-left: 90px;
+ }   
+    
+
+@media screen and (max-width:480px){
+li{
+  display: block;  
+}
+button{
+    display: block;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.responsive{
+    width: 100%;
+   
+    margin-top: 30px;
+ 
+}
+
+}
+
